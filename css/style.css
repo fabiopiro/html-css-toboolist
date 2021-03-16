@@ -9,7 +9,6 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-
 main {
     width: 50%;
     margin: auto;
@@ -23,9 +22,14 @@ main {
     font-size: 50px;
     font-weight: bolder;
 }
+.barra {
+    background-color: white;
+    padding: 10px;
+}
+
 .corpo {
     background-color: white;
-    height: auto;
+    padding: 30px;
 }
 .tasto {
     display: inline-block;
@@ -49,7 +53,7 @@ main {
 /* ELEMENTI DELLA LISTA */
 /* New Task, Today, Upcoming */
 .insieme {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
 }
 /* Check e Uncheck */
@@ -76,6 +80,7 @@ main {
     color: white;
     padding: 5px;
     border-radius: 20px;
+    font-size: 14px;
 
 }
 
