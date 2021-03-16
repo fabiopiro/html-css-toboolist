@@ -6,7 +6,9 @@
 
 body {
     background-color: lightgrey;
+    font-family: 'Ubuntu', sans-serif;
 }
+
 
 main {
     width: 50%;
@@ -48,6 +50,7 @@ main {
 /* New Task, Today, Upcoming */
 .insieme {
     font-size: 25px;
+    font-weight: bold;
 }
 /* Check e Uncheck */
 .done {
@@ -73,7 +76,7 @@ main {
     color: white;
     padding: 5px;
     border-radius: 20px;
-    margin: 5px;
+
 }
 
 .editorial {
