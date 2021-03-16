@@ -8,6 +8,7 @@ body {
     background-color: lightgrey;
 }
 
+/* HEADER */
 .banner {
     background-color: white;
     height: 100px;
@@ -15,25 +16,14 @@ body {
     font-size: 50px;
     font-weight: bolder;
 }
-
-
-
-
-
 .corpo {
     background-color: white;
     height: auto;
 }
-
-
-
-
-
-
 .tasto {
     display: inline-block;
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     border-radius: 10px;
     margin: 5px;
     border: solid;
@@ -49,10 +39,12 @@ body {
     background-color: white;
 }
 
-
-
-
-
+/* ELEMENTI DELLA LISTA */
+/* New Task, Today, Upcoming */
+.insieme {
+    font-size: 25px;
+}
+/* Check e Uncheck */
 .done {
     display: inline-block;
     text-align: center;
@@ -63,16 +55,41 @@ body {
     border-style: solid;
     border-width: thin;
 }
-
 .check {
     color: green;
 }
-
-.sezione {
+.uncheck {
+    color: red;
+}
+/* Tema degli elementi */
+.tema {
     display: inline-block;
     text-align: center;
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 20px;
     margin: 5px;
-    background-color: red;
+}
+
+.editorial {
+    background-color: blue;
+}
+
+.goals {
+    background-color: purple;
+}
+
+.recruiting {
+    background-color: green;
+}
+
+.mobile {
+    background-color: orange;
+}
+
+.website {
+    background-color: pink;
+}
+
+.sales{
+    background-color: lightgreen;
 }
