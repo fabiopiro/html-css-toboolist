@@ -8,6 +8,11 @@ body {
     background-color: lightgrey;
 }
 
+main {
+    width: 50%;
+    margin: auto;
+}
+
 /* HEADER */
 .banner {
     background-color: white;
@@ -65,13 +70,14 @@ body {
 .tema {
     display: inline-block;
     text-align: center;
+    color: white;
     padding: 5px;
     border-radius: 20px;
     margin: 5px;
 }
 
 .editorial {
-    background-color: blue;
+    background-color: lightskyblue;
 }
 
 .goals {
